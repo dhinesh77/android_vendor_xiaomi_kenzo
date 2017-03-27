@@ -52,5 +52,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
+    
+PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libtime_genoff \
+    datastatusnotification \
+    fastdormancy \
+    shutdownlistener 
 
 $(call inherit-product, vendor/xiaomi/kenzo/vendor-blobs.mk)
